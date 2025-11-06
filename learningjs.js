@@ -56,6 +56,7 @@ arithFunc(d, y, oper); // calling the arrow function with the two random numbers
 
 var shoes = [];
 
+shoes[0]="blah"
 shoes [1]= "nike";
 shoes[2] = "addidas";
 shoes[3]= "underarmor";
@@ -67,7 +68,22 @@ shoes[8]="loafers";
 shoes[9]="boatshoes";
 shoes[10]="boots";
 shoes[11]="flipflops";
-shoes[12]= 
+shoes[12]= "birkenstocks"
+shoes[13]="slides";
+shoes[14]="new balance";
+shoes[15]="vans";
+
+console.log(shoes.length);
+console.log(shoes[0]); // first thing in the array print
+console.log(shoes[15]); // last thing in the array print
+
+let length = shoes.push("brown")
+//console.log (Math.floor(Math.random() * array.length)); //comeback to this one
+
+
+
+
+
 
 
 
