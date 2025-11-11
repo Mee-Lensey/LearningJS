@@ -81,6 +81,62 @@ let length = shoes.push("brown")
 //console.log (Math.floor(Math.random() * array.length)); //comeback to this one
 
 
+// Answering question 6
+
+const randNum = []; // variable which cannot be changed
+
+
+for (let i=0; i < 10; i++){ // for loop to generate 10 random numbers
+    randNum[m] = Math.floor(Math.random() * (29 - 87 + 1) + 87);// generates random number between 29 and 87
+}
+var dist = 0; // variable to store the largest distance
+var number1; // variable to store the first number of the largest distance pair
+var number2; 
+for (let m=0; m < 10; m++){ 
+    if (Math.abs(randNum[m]-randNum[m+1]) > dist){// checks if the distance between two numbers is greater than the current largest distance
+        dist = Math.abs(randNum[m]-randNum[m+1]); // updates the largest distance
+        number1 = randNum[m]; 
+        number2 = randNum[m+1]; 
+    }
+}g
+console.log(randNum);
+console.log(dist);
+console.log(number1);
+console.log(number2);  
+
+// Answering question 7
+
+const newNum = randNum.map(squareNumbers);
+function squareNumbers(num){ // function to square numbers
+    return num*num ;
+}
+console.log(newNum);  
+
+//Question 8
+
+let maxNum = Math.max(...newNum);
+
+filteredNums = newNum.filter(filterNums);
+
+function filterNums(num){
+    if (num < maxNum/2){
+        return num
+    }
+}
+console.log(filteredNums);
+
+
+
+
+
+ 
+
+
+
+
+
+
+
 
 
 
