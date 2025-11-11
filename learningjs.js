@@ -128,6 +128,38 @@ console.log(filteredNums);
 
 // Question 9 
 
+const num= filteredNums.reduce(reduceNums);
+
+function reduceNums(total, num){
+    return total + num;
+}
+
+console.log(num);
+
+//Question 10
+
+const randNum2 = []; //
+randNum.forEach(MyFunction);
+
+function MyFunction(item, index){
+    randNum2[index] =  index; 
+}
+
+console.log(randNum2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
