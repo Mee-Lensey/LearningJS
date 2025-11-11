@@ -86,7 +86,7 @@ let length = shoes.push("brown")
 const randNum = []; // variable which cannot be changed
 
 
-for (let i=0; i < 10; i++){ // for loop to generate 10 random numbers
+for (let m=0; m < 10; m++){ // for loop to generate 10 random numbers
     randNum[m] = Math.floor(Math.random() * (29 - 87 + 1) + 87);// generates random number between 29 and 87
 }
 var dist = 0; // variable to store the largest distance
@@ -98,7 +98,7 @@ for (let m=0; m < 10; m++){
         number1 = randNum[m]; 
         number2 = randNum[m+1]; 
     }
-}g
+}
 console.log(randNum);
 console.log(dist);
 console.log(number1);
@@ -124,6 +124,17 @@ function filterNums(num){
     }
 }
 console.log(filteredNums);
+
+
+// Question 9 
+
+
+
+
+
+
+
+
 
 
 
